@@ -20,13 +20,17 @@ The application allows managing students and courses with full CRUD functionalit
  - Edit a course
  - List all courses
  - Delete a course
-   
+
+--- 
+
 ## Additional Functionality
 
  - Filter students by GPA (using closures)
  - Sort students by GPA (descending)
  - Calculate average GPA
  - Input validation and error handling
+
+--- 
    
 ## Data Model & OOP Design
 
@@ -35,11 +39,15 @@ The application allows managing students and courses with full CRUD functionalit
  - Properties: **id, name, gpa, courseId**
  - Course — implemented as a **class**
  - Properties: **id, title**
+
+--- 
    
 ## Protocol
 
    - Validatable
      - Used by Student to validate input data (ID, name, GPA)
+
+--- 
        
 ## Architecture
 
@@ -51,6 +59,8 @@ This design demonstrates:
  - Encapsulation
  - Separation of concerns
  - Proper use of **struct, class, and protocol** in Swift
+
+--- 
    
 ## Functions and Closures
 
@@ -71,6 +81,8 @@ Closures are used in multiple places:
    
 This fulfills the requirement for using closures meaningfully.
 
+--- 
+
 ## Error Handling & Edge Cases
 
 The application handles common edge cases:
@@ -82,10 +94,14 @@ The application handles common edge cases:
    
 Errors are displayed clearly in the console.
 
+--- 
+
 ## Assumptions
  - GPA values are in the range 0.0 – 4.0
  - Course assignment to a student is optional
  - Data is not persisted between runs (in-memory storage only)
+
+--- 
 
 ## Conclusion
 This project meets all assignment requirements, demonstrates core Swift concepts, and maintains a clean and beginner-friendly structure while remaining fully functional.
