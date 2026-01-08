@@ -96,7 +96,22 @@ Errors are displayed clearly in the console.
 
 --- 
 
+## How to Run
+
+Requirements
+ - Swift 5 or newer
+ - macOS with Xcode installed
+Run Instructions
+ - Open Xcode
+ - Create a Swift Playground or Console Application
+ - Copy the provided main.swift code into the project
+ - Run the program
+ - Interact with the application using the console menu
+
+---
+
 ## Assumptions
+
  - GPA values are in the range 0.0 – 4.0
  - Course assignment to a student is optional
  - Data is not persisted between runs (in-memory storage only)
@@ -104,4 +119,5 @@ Errors are displayed clearly in the console.
 --- 
 
 ## Conclusion
+
 This project meets all assignment requirements, demonstrates core Swift concepts, and maintains a clean and beginner-friendly structure while remaining fully functional.
